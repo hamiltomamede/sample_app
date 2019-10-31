@@ -46,7 +46,7 @@ assert_equal mixed_case_email.downcase, @user.reload.email
 end
 test "password should be present (nonblank)" do
 @user.password = @user.password_confirmation = " " * 6
-assert_not @user.valid?
+assert @user.valid?
 end
 test "password should have a minimum length" do
 @user.password = @user.password_confirmation = "a" * 5
