@@ -22,6 +22,7 @@ test:
 
 production:
   adapter: postgresql
-  host: localhost
   username: wwhmypjdsiqwdx
   database: dat02g5dc2nh89
+  pool: 5
+  timeout: 5000
