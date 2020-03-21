@@ -59,6 +59,7 @@ group :test do
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem 'chromedriver-helper'
   # Use postgresql as the database for Active Record
+  gem 'sqlite3'
 end
 
 group :production do
