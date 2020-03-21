@@ -59,11 +59,11 @@ group :test do
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem 'chromedriver-helper'
   # Use postgresql as the database for Active Record
-  gem 'sqlite3'
+
 end
 
 group :production do
-  gem 'pg'
+  gem 'pg', '0.18.4'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
