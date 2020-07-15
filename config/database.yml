@@ -22,7 +22,7 @@ test:
 
 production:
   adapter: postgresql
-  username: wwhmypjdsiqwdx
-  database: dat02g5dc2nh89
+  username: sgibeimahhdtnj
+  database: d3h4mvr4bksv4q
   pool: 5
   timeout: 5000
